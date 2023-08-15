@@ -1,0 +1,21 @@
+.h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 130%;
+    letter-spacing: 1px;
+    color: var(--black);
+}
+
+.h2 {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 130%;
+    color: var(--black);
+}
+
+.h3 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 130%;
+    color: var(--black);
+}

@@ -1,0 +1,22 @@
+.popularCategoriesCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.image {
+    width: 180px;
+    height: 180px;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+}

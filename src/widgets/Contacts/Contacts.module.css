@@ -1,0 +1,43 @@
+.contacts {
+    width: 100%;
+    margin-top: 180px;
+}
+
+.container {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8;
+}
+
+.title h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

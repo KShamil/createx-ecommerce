@@ -1,0 +1,74 @@
+.dailOfTheWeek {
+    width: 862px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-left: 60px;
+    background: url(./image.png) center center/cover no-repeat;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.btn {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.offer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 79px;
+}
+
+.date {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.dateItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.number {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
+    color: var(--black);
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--black);
+}

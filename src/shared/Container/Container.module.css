@@ -1,0 +1,31 @@
+.container {
+    width: 1230px;
+}
+
+.containerRowSpaceBetween {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerRowCenter {
+    width: 1230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerRowStart {
+    width: 1230px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.containerRowEnd {
+    width: 1230px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

@@ -1,0 +1,44 @@
+.servicesCard {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-right: 45px;
+    padding-left: 45px;
+    border-right: 1px solid #787A80;
+}
+
+.servicesCard:last-child {
+    border-right: none;
+}
+
+.servicesCard:first-child {
+    border-left: none;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    color: var(--black);
+    white-space: nowrap;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #787A80;
+    white-space: nowrap;
+}

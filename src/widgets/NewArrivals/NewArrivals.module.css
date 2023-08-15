@@ -1,0 +1,26 @@
+.newArrivals {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+.p {
+    text-align: center;
+}
+
+.link {
+    color: var(--primary);
+    text-decoration: underline;
+}

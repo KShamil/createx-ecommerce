@@ -1,0 +1,28 @@
+.trendingNowItems {
+    width: 100%;
+}
+
+.container {
+    width: 1230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

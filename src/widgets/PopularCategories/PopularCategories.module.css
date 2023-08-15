@@ -1,0 +1,12 @@
+.popularCategories {
+    width: 100%;
+    margin-top: 180px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}

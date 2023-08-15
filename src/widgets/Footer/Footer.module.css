@@ -1,0 +1,131 @@
+.footer {
+    width: 100%;
+    background: var(--black);
+    padding-top: 60px;
+    padding-bottom: 32px;
+}
+
+.container {
+    width: 1230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--white);
+}
+
+.navList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    color: var(--white);
+    transition: 0.3s ease all;
+}
+
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.iconContainer {
+    background: #363c46;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.mobileApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.appStore,
+.googlePlay {
+    width: 162px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.info {
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.right span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    color: var(--white);
+}

@@ -1,0 +1,64 @@
+.trendingCard {
+    width: 390px;
+    min-height: 538px;
+    border-radius:4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.top {
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--white);
+    padding: 15px;
+}
+
+.rating {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.wishlist {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    background: transparent;
+}
