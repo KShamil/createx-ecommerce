@@ -12,10 +12,14 @@ export const InfoSection: FC<InfoSectionProps> = ({
   return (
     <>
       <section {...props} className={styles.infoSection}>
-        <SummerCollections />
-        <DealOfTheWeek />
-        <NewCollection />
-        <NewEmail />
+        <div className={styles.top}>
+          <SummerCollections />
+          <DealOfTheWeek />
+        </div>
+        <div className={styles.bottom}>
+          <NewCollection />
+          <NewEmail />
+        </div>
       </section>
     </>
   );

@@ -1,5 +1,5 @@
 .dailOfTheWeek {
-    width: 862px;
+    width: auto;
     min-height: 500px;
     display: flex;
     flex-direction: column;

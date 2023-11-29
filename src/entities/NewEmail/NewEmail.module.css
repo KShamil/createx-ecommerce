@@ -1,5 +1,5 @@
 .newEmail {
-    width: 580px;
+    width: auto;
     min-height: 500px;
     display: flex;
     flex-direction: column;

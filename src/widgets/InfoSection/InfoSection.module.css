@@ -3,8 +3,22 @@
     padding: 0 30px;
     margin-top: 180px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 16px;
-    flex-wrap: wrap;
+}
+
+.top {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 735px 1fr;
+    gap: 16px;
+}
+
+.bottom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 735px;
+    gap: 16px;
 }
